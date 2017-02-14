@@ -1,7 +1,9 @@
-    header {
+    body {
       text-align: center;
       background: url("http://wallpaper-gallery.net/images/pics-of-flowers/pics-of-flowers-16.jpg");
       background-size: cover;
+      background-attachment: fixed;
+
       color: white;
     }
     .nav {
@@ -9,6 +11,7 @@
     }
     h1 {
       font-size: 70px;
+      color:black;
     }
     img {
       margin: 40px 0px 0px 0px;
@@ -33,8 +36,27 @@
         font-size: 36px;
         padding: 5px;
       }
-      li {
+      li {           
         padding: 5px;
         display: block;
       }
     }
+
+p {
+  font-size: 40px;
+  color: red;
+}
+a{
+  font-size: 30px;
+  color: blue;
+}
+#p{
+  color: red;
+}
+h2{
+border:dotted;
+color: blue;
+}
+button {
+ background-color:hotpink;
+}
